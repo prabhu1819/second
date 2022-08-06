@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-27T13:33:43 IST" name="Default suite" finished-at="2022-07-27T13:34:51 IST" duration-ms="67833">
+    <groups>
+    </groups>
+    <test started-at="2022-07-27T13:33:43 IST" name="Default test" finished-at="2022-07-27T13:34:51 IST" duration-ms="67833">
+      <class name="TestNgDay4.Day4">
+        <test-method signature="launch()[pri:0, instance:TestNgDay4.Day4@6d2a209c]" started-at="2022-07-27T13:33:43 IST" name="launch" finished-at="2022-07-27T13:33:53 IST" duration-ms="10069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="todaysdeal()[pri:0, instance:TestNgDay4.Day4@6d2a209c]" started-at="2022-07-27T13:33:53 IST" name="todaysdeal" finished-at="2022-07-27T13:34:06 IST" depends-on-methods="TestNgDay4.Day4.launch" duration-ms="13018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- todaysdeal -->
+        <test-method signature="handling()[pri:0, instance:TestNgDay4.Day4@6d2a209c]" started-at="2022-07-27T13:34:06 IST" name="handling" finished-at="2022-07-27T13:34:51 IST" depends-on-methods="TestNgDay4.Day4.todaysdeal" duration-ms="44658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handling -->
+      </class> <!-- TestNgDay4.Day4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
